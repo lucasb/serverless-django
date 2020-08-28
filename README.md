@@ -34,7 +34,6 @@ However, to manually deploy perform the following steps:
 
 ```sh
 python manage.py collectstatic --noinput
-python manage.py runserver
 sls deploy
 ```
 
