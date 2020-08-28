@@ -24,7 +24,7 @@ Node (lts):
 
 ## Development
 
-Run server: `python manage.py runserver`
+Run server at port **8000**: `python manage.py runserver`
 
 ## Deployment
 
