@@ -151,7 +151,8 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
-STATIC_URL = '/dev/static/'
+STAGE = os.getenv('STAGE', 'dev')       # This must conform to the stage defined in serverless (which also defaults to dev)
+STATIC_URL = f'/{STAGE}/static/'
 STATIC_ROOT = BASE_DIR / 'staticfiles'
-WHITENOISE_STATIC_PREFIX = '/static/'
+WHITENOISE_STATIC_PREFIX = STATIC_URL
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
