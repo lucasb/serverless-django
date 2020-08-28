@@ -1,0 +1,27 @@
+
+# OS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Modules/Dependencies
+venv/
+node_modules/
+.serverless/
+package-lock.json
+yarn.lock
+
+# Compiled/Static files
+__pycache__/
+*.pyc
+staticfiles/
+
+# Local DBs/Configs
+*.sqlite3
+*.cnf
+*.env
+
+# Logs
+*/.log
