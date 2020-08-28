@@ -6,7 +6,7 @@ This project is a minimal Django 3.1 setup which also ships the required `mysqlc
 
 Running Django on serverless infrastructure was previously unheard of; now there are [guides/blog-posts](https://www.serverless.com/blog/django-serverless-framework-a-match-made-in-heaven) which detail how one can run Django on serverless infrastructure.
 
-However most of the guides for serverless target Django2 (which is now outdated with LTS ending soon); additionally there is no documented guide/blog-post to setup Django 3.1 on serverless (at the time of writing).
+However most of the guides for serverless target Django2 (which is now outdated with LTS ending soon); additionally there is no documented guide/blog-post to **setup Django 3.1 on serverless** (at the time of writing).
 
 To top it off, one would have **difficulties connecting to MySQL database** even if they did manage to get Django 3.1 running on  serverless due to missing `mysqlclient` binaries/libraries in the Lambda environment.
 
