@@ -154,5 +154,5 @@ USE_TZ = True
 STAGE = os.getenv('STAGE', 'dev')       # This must conform to the stage defined in serverless (which also defaults to dev)
 STATIC_URL = f'/{STAGE}/static/'
 STATIC_ROOT = BASE_DIR / 'staticfiles'
-WHITENOISE_STATIC_PREFIX = STATIC_URL
+WHITENOISE_STATIC_PREFIX = '/static/'
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
