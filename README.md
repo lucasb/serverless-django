@@ -44,3 +44,12 @@ TODO
 ## Admin
 
 You can view django admin interface at `http://localhost:8000/admin`
+
+## TODO
+
+- [x] Repo setup
+- [x] Readme completion (with instructions to run locally)
+- [ ] Github Actions CICD
+- [ ] Python linting and autopup8 support
+- [ ] Support for multiple/local environments (AWS localstack via docker)
+- [ ] Docker remote container setup
